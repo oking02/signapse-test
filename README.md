@@ -9,6 +9,8 @@
 > - Reduces friction for another engineer to extend
 > 
 > I haven't used strict hexagonal naming as I'm more used to using handlers/datasources vs adapters
+> 
+> Lots of boilerplate and code was taken from a new service template repo I've created.
 
 I've tried to keep dependencies to the minimum but might use a frameworks for http in a larger services, as they provide lots of nice to haves and routing options
 
