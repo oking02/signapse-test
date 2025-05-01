@@ -19,9 +19,12 @@ I've tried to keep dependencies to the minimum but might use a frameworks for ht
 
 ## To Use
 
-Run
+Make sure a valid token for the raw number generator is set using the envar `SIGNAPSE_TOKEN`
+
+### Run
 
 `go run github.com/oking02/signapse-test/cmd/app`
 
-This will start a server on localhost:3000. 
+This will start a server on `localhost:3000`. 
+
 To change the port set the `HTTP_PORT` enviroment variable
