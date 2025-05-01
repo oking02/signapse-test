@@ -10,6 +10,8 @@
 > 
 > I haven't used strict hexagonal naming as I'm more used to using handlers/datasources vs adapters
 
+I've tried to keep dependencies to the minimum but might use a frameworks for http in a larger services, as they provide lots of nice to haves and routing options
+
 <img src="./arch1.png" width="800" alt="Medium">
 
 
