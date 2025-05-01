@@ -1,0 +1,17 @@
+with-expecter: true
+disable-version-string: true
+all: false
+recursive: true
+filename: "{{.InterfaceName | snakecase}}.go"
+dir: "{{.InterfaceDir}}/mocks"
+mockname: "{{.InterfaceName}}"
+outpkg: "mocks"
+resolve-type-alias: false
+issue-845-fix: true
+packages:
+  github.com/oking02/signapse-test/internal/core/ports:
+    # place your package-specific config here
+    interfaces:
+      RawNumbersFetcher:
+      OrderedNumbersFetcher:
+
